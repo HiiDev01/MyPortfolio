@@ -1,0 +1,279 @@
+.about_wrapper{
+  width: 100%;
+  padding: 8% 5%;
+  overflow-x: hidden;
+  background: linear-gradient(to right, rgba(195,214,215,0.3),rgba(195,214,215,0.3));
+}
+.contact_intro{
+  margin: 0px 0px 20px 0px;
+}
+.contact_intro h2{
+  font-family: var(--asul-family);
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 3rem;
+  color: var(--third-color);
+  margin: 0px 0px 5px 0px;
+}
+.contact_intro p{
+  font-family: var(--asul-family);
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--black-color);
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+
+.contact_item_wrapper{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px;
+}
+.contact_item_1{
+  width: 50%;
+  height: 100%;
+  box-shadow: 0px 0px 2px #cbcbcb;
+  padding: 5% 10px;
+  border-radius: 10px;
+}
+.contact_item_1 h3{
+  font-family: var(--asul-family);
+  font-weight: 700;
+  color: var(--second-color);
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin: 0px 0px 20px 0px;
+}
+.contact_item_details{
+  width: 100%;
+
+}
+.contact_item_details .meet_datils{
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px;
+}
+.contact_item_details .meet_datils h4{
+  font-family: var(--asul-family);
+  font-weight: 600;
+  color: var(--third-color);
+  font-size: 2rem;
+  font-style: italic;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.contact_item_details .meet_datils h4 span{
+  color: var(--second-color);
+  font-size: 2rem;
+  margin: 0px 5px 0px 0px;
+}
+.contact_item_details .meet_datils p{
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--black-color);
+  font-family: var(--poppins-font);
+  margin: 0px 0px 5px 0px;
+}
+.contact_item_details .meet_datils p a{
+  color: var(--second-color);
+  font-size: 1rem;
+}
+
+.contact_item_2{
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0px 0px 2px #cbcbcb;
+}
+.contact_item_2 h3{
+  font-family: var(--poppins-font);
+  font-weight: 600;
+  color: var(--black-color);
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin: 0px 0px 25px 0px;
+}
+.contact_item_2 form .form_container{
+  width: 100%;
+  margin: 10px 0px 15px 0px;
+}
+.contact_item_2 form .form_container label{
+  display: block;
+  margin: 0px 0px 5px 0px;
+  text-transform: capitalize;
+  font-family: var(--asul-family);
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--black-color);
+}
+.form_container input[type=text],
+.form_container input[type=email],
+.form_container textarea{
+  width: 100%;
+  resize: none;
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid var(--second-color);
+  background-color: transparent;
+}
+.form_container input[type=text],
+.form_container input[type=email]{
+  padding: 12px 10px;
+  border: 1px solid var(--second-color);
+  color: var(--black-color);
+  font-family: var(--main-font);
+  font-size: 1.1rem;
+  font-family: var(--roboto-font);
+}
+.form_container textarea{
+  padding: 12px 10px;
+  font-size: 1.1rem;
+  font-family: var(--roboto-font);
+  color: var(--black-color);
+}
+.contact_item_2 form button{
+  width: 100%;
+  padding: 12px 0px;
+  font-family: var(--asul-family);
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  background-color: var(--second-color);
+  color: var(--background-color);
+  border: none;
+  border-radius: 7px;
+}
+@media screen and (max-width: 967px){
+  .about_wrapper{
+    width: 100%;
+    padding: 30% 10px 10px 10px ;
+  }
+
+  .contact_item_wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    padding: 5px;
+  }
+  .contact_item_1{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 2px #cbcbcb;
+    padding: 5% 10px;
+    border-radius: 10px;
+  }
+  .contact_item_1 h3{
+    font-family: var(--asul-family);
+    font-weight: 700;
+    color: var(--second-color);
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0px 0px 20px 0px;
+  }
+  .contact_item_details{
+    width: 100%;
+  
+  }
+  .contact_item_details .meet_datils{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px;
+  }
+  .contact_item_details .meet_datils h4{
+    font-family: var(--asul-family);
+    font-weight: 600;
+    color: var(--third-color);
+    font-size: 2rem;
+    font-style: italic;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+  }
+  .contact_item_details .meet_datils h4 span{
+    color: var(--second-color);
+    font-size: 2rem;
+    margin: 0px 5px 0px 0px;
+  }
+  .contact_item_details .meet_datils p{
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--black-color);
+    font-family: var(--poppins-font);
+    margin: 0px 0px 5px 0px;
+  }
+  
+  .contact_item_2{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 2px #cbcbcb;
+  }
+  .contact_item_2 h3{
+    font-family: var(--poppins-font);
+    font-weight: 600;
+    color: var(--black-color);
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0px 0px 25px 0px;
+  }
+  .contact_item_2 form .form_container{
+    width: 100%;
+    margin: 10px 0px 15px 0px;
+  }
+  .contact_item_2 form .form_container label{
+    display: block;
+    margin: 0px 0px 5px 0px;
+    text-transform: capitalize;
+    font-family: var(--asul-family);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--black-color);
+  }
+  .form_container input[type=text],
+  .form_container input[type=email],
+  .form_container textarea{
+    width: 100%;
+    resize: none;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid var(--second-color);
+    background-color: transparent;
+  }
+  .form_container input[type=text],
+  .form_container input[type=email]{
+    padding: 12px 10px;
+    border: 1px solid var(--second-color);
+    color: var(--black-color);
+    font-family: var(--main-font);
+    font-size: 1.1rem;
+    font-family: var(--roboto-font);
+  }
+  .form_container textarea{
+    padding: 12px 10px;
+    font-size: 1.1rem;
+    font-family: var(--roboto-font);
+    color: var(--black-color);
+  }
+  .contact_item_2 form button{
+    width: 100%;
+    padding: 12px 0px;
+    font-family: var(--asul-family);
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    background-color: var(--second-color);
+    color: var(--background-color);
+    border: none;
+    border-radius: 7px;
+  }
+  
+  
+}

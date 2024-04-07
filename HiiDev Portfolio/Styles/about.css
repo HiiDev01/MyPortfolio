@@ -1,0 +1,175 @@
+:root{
+  --background-color: #F5F5F5;
+  --first_color: #FFFFFF;
+  --second-color:  #2a777c;
+  --third-color: #00a9a5;
+  --black-color: #A4A4A4;
+  --para-color: #ececec;
+  --para-background: #555555;
+  --roboto-font: "Roboto", sans-serif;
+  --poppins-font: "Poppins", sans-serif;
+  --asul-family: "Asul", serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: var( --first_color);
+}
+
+
+.about-home{
+  width: 100%;
+  height: 25vh;
+  background-image: linear-gradient(to right, rgba(195,214,215,0.3),rgba(195,214,215,0.3)),url(/images/abiut.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 5%;
+  text-align: left;
+}
+.about-home h2{
+  font-size: 3rem;
+  font-family: var(--asul-family);
+  font-weight: 600;
+  color: var(--black-color);
+  text-transform: capitalize;
+}
+.other-about-me-conatiner{
+  width: 100%;
+  min-height: 100vh;
+  padding: 5% 5%;
+  background-image: linear-gradient(to right, rgba(195,214,215,0.3),rgba(195,214,215,0.3));
+}
+.other-about-me-wrapper{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.skills-about-conatiner{
+  width: 45%;
+  height: auto;
+}
+.skills-about-conatiner ul li{
+  list-style: none;
+  line-height: 50px;
+  border-bottom: 1px solid var(--black-color);
+  padding: 20px 0px;
+}
+.skills-about-conatiner ul li .skill-about{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.skills-Other-about-img-wrap{
+  background-color: var(--second-color);
+  border-radius: 50%;
+  margin: 10px 0px 0px 0px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+}
+.skills-Other-about-img-wrap i{
+  font-size: 2rem;
+  color: var(--background-color);
+}
+.skill-img-details-wrap{
+  width: 90%;
+}
+.skill-img-details-wrap h2{
+  font-size: 1.2rem;
+  color: var(--second-color);
+  font-family: var(--asul-family);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.skill-img-details-wrap p{
+  font-size: 1rem;
+  color: var(--black-color);
+  font-family: var(--roboto-font);
+  font-weight: 400;
+  line-height: 1.9;
+  word-spacing: 2px;
+  word-wrap: break-word;
+}
+.full-about-gallery{
+  width: 55%;
+  border: 1px solid var(--second-color);
+  height: auto;
+  padding: 10px;
+}
+.gallery-wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.gallery{
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--second-color);
+  min-height: 300px;
+}
+@media screen and (max-width: 1030px){
+  .about-home{
+    width: 100%;
+    min-height: 20vh;
+    background-image: linear-gradient(to right, rgba(195,214,215,0.3),rgba(195,214,215,0.3)),url(/images/abiut.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 5%;
+    text-align: left;
+    position: relative;
+  }
+  .about-home h2{
+    font-size: 4rem;
+    font-family: var(--asul-family);
+    font-weight: 600;
+    color: var(--black-color);
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 40px;
+  }
+  .other-about-me-conatiner{
+    width: 100%;
+    min-height: 100vh;
+    padding: 2% 5%;
+  }
+  .other-about-me-wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+  }
+  .skills-about-conatiner{
+    width: 100%;
+    height: auto;
+  }
+  .full-about-gallery{
+    width: 100%;
+    border: 1px solid var(--second-color);
+    height: auto;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 600px){
+  .gallery-wrapper{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+}

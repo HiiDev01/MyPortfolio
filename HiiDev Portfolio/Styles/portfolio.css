@@ -1,0 +1,120 @@
+main{
+  padding: 0% 0%;
+}
+.portfolio_wrapper{
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  padding: 0% 0%;
+}
+/*
+.portfolio_button{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.portfolio_button .port_btn{
+  color: var(--third-color);
+  border: 1px solid var(--third-color);
+  font-family: var(--asul-family);
+  background-color: transparent;
+  padding: 8px 10px;
+  margin: 0px 10px;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+.port_btn.activebtn{
+  color: #fff;
+  background-color: var(--second-color);
+  border: none;
+}
+*/
+.projects{
+  padding: 0% 5%;
+  margin: 0px 0px 10% 0px;
+}
+.service_heading{
+  margin: 6% 0px 5% 0px;
+}
+.service_heading h2{
+  font-family: var(--poppins-font);
+  text-transform: capitalize;
+  color: var(--third-color);
+  font-size: 3rem;
+  margin: 0px 0px 0px 0px;
+  position: relative;
+}
+.service_heading h2::after{
+  position: absolute;
+  content: 'My projects';
+  bottom: -22px;
+  left: 38%;
+  color: #a4a4a423;
+  font-family: var(--poppins-font);
+  z-index: -1;
+  font-size: 3.2rem;
+}
+.projet_main_container{
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--second-color);
+  padding: 10px;
+  gap: 10px;
+}
+.projet_main_container .project_child{
+  border: 1px solid var(--second-color);
+  min-height: 100px;
+  padding: 5px;
+}
+.project_child_mini{
+  height: 100%;
+  border-radius: 10px;
+  background-color: #6c63ff;
+}
+@media screen and (max-width: 1030px){
+  .service_heading h2{
+    font-family: var(--poppins-font);
+    text-transform: capitalize;
+    color: var(--third-color);
+    font-size: 3rem;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+  }
+  .service_heading h2::after{
+    position: absolute;
+    content: 'My Projects';
+    bottom: -22px;
+    left: 35%;
+    color: #a4a4a423;
+    font-family: var(--poppins-font);
+    z-index: -1;
+    font-size: 3.2rem;
+  }
+}
+@media screen and (max-width: 750px){
+  .service_heading h2{
+    font-family: var(--poppins-font);
+    text-transform: capitalize;
+    color: var(--third-color);
+    font-size: 3rem;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+  }
+  .service_heading h2::after{
+    position: absolute;
+    content: 'My Projects';
+    bottom: -22px;
+    left: 20%;
+    color: #a4a4a423;
+    font-family: var(--poppins-font);
+    z-index: -1;
+    font-size: 3.2rem;
+  }
+}
+
+
+
+
+
+
