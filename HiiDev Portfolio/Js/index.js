@@ -18,3 +18,13 @@ document.querySelectorAll('.navLinks').forEach(link => link.addEventListener('cl
   hamburger.classList.remove('active');
   navList.classList.remove('active');
 }));
+//////////////////////////////////////////////////////
+const faqs = document.querySelectorAll('.faq_li');
+
+faqs.forEach(faq =>{
+  faq.addEventListener('click', ()=>{
+    faq.classList.toggle('active');
+  });
+})
+
+

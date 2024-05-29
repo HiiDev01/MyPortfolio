@@ -30,11 +30,11 @@ body{
 .service-home{
   width: 100%;
   height: 25vh;
-  background-image: linear-gradient(to right, rgba(195,214,215,0.3),rgba(195,214,215,0.3));
+  /*background-image: linear-gradient(to right, rgba(195,214,215,0.3),rgba(195,214,215,0.3));
   background-position: center;
-  background-size: cover;
+  background-size: cover;*/
   padding: 3% 5%;
-  text-align: center;
+  text-align: left;
 }
 .service-home h2{
   font-size: 4rem;
@@ -80,6 +80,7 @@ body{
 .service-links{
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
   padding: 5%;
 }
 .service-links a{
@@ -100,16 +101,14 @@ body{
   .service-home{
     width: 100%;
     height: 25vh;
-    background-image: linear-gradient(to right, rgba(195,214,215,0.3),rgba(195,214,215,0.3));
-    background-position: center;
-    background-size: cover;
+    background-color: #fff;
     padding: 3% 5%;
-    text-align: center;
+    text-align: left;
     position: relative;
   }
   .service-home h2{
     position: absolute;
-    left: 50%;
+    left: 30%;
     bottom: 0;
     transform: translate(-50%, -50%);
     font-size: 4rem;

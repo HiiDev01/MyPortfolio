@@ -30,7 +30,7 @@ body{
 .about-home{
   width: 100%;
   height: 25vh;
-  background-image: linear-gradient(to right, rgba(195,214,215,0.3),rgba(195,214,215,0.3)),url(/images/abiut.jpg);
+  background-image: linear-gradient(to right, rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/images/abiut.jpg);
   background-position: center;
   background-size: cover;
   padding: 5%;
@@ -127,7 +127,7 @@ body{
   .about-home{
     width: 100%;
     min-height: 20vh;
-    background-image: linear-gradient(to right, rgba(195,214,215,0.3),rgba(195,214,215,0.3)),url(/images/abiut.jpg);
+    background-image: linear-gradient(to right, rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/images/abiut.jpg);
     background-position: center;
     background-size: cover;
     padding: 5%;
